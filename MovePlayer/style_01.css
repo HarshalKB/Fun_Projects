@@ -1,0 +1,30 @@
+body {
+    background: #999;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-size: 50px;
+    text-shadow: 5px 5px 10px red, -5px -5px 10px blue;
+}
+
+.screen {
+    height: 80vh;
+    width: 90vw;
+    border: 2px solid black;
+    min-width: 1500px;
+    background: radial-gradient(#3ddfd1, blue);
+    position: fixed;
+}
+
+.player {
+    height: 50px;
+    width: 50px;
+    background: black;
+    border-radius: 50%;
+}
