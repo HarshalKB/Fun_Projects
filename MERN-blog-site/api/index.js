@@ -14,7 +14,7 @@ app.use(cors({ credentials: true, origin: 'http://localhost:5173' }));
 app.use(express.json());
 app.use(cookieParser());
 
-mongoose.connect('mongodb+srv://harshalbombarde:b6ufIQkborCQrLbC@mern-blog-database.ln7bdey.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('sercer_url');
 
 app.post("/register", async (req, res) => {
     const { username, password } = req.body;
